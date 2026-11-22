@@ -59,8 +59,8 @@
 
       <p>
         Bu gizlilik politikası, CA Games tarafından sunulan <strong>Sand Art Jam</strong>
-        mobil oyununda verilerin nasıl işlendiğini açıklar. Uygulamanın Android
-        paket adı <strong>com.cengiz.sandgameworkers</strong>'dır.
+        iOS ve Android oyununda verilerin nasıl işlendiğini açıklar. Uygulama
+        kimliği <strong>com.cengiz.sandgameworkers</strong>'dır.
       </p>
 
       <h2>1. Veri toplama ve paylaşma</h2>
@@ -73,12 +73,13 @@
       <p>
         Sand Art Jam, geçiş ve isteğe bağlı ödüllü reklamlar için <strong>Google AdMob / Google Mobile Ads</strong>
         kullanır. Reklam hizmeti IP adresi (yaklaşık konum için kullanılabilir),
-        reklam ve uygulama etkileşimleri, tanılama bilgileri ile uygulama kümesi
-        kimliği gibi cihaz tanımlayıcılarını işleyebilir. Eski Android sürümleri
+        reklam görüntüleme verileri, uygulama etkileşimleri, çökme ve performans
+        bilgileri ile platforma bağlı cihaz tanımlayıcılarını işleyebilir. Eski Android sürümleri
         Android reklam kimliğine erişim izni içerebilir. Bu veriler
         reklam sunumu, ölçüm ve sahteciliği önleme amacıyla Google ile paylaşılabilir.
-        Ayrıntılar: <a href="https://developers.google.com/admob/unity/privacy/play-data-disclosure" lang="en">Google Mobile Ads veri açıklaması</a>,
-        <a href="https://policies.google.com/privacy?hl=tr">Google Gizlilik Politikası</a>.
+        Ayrıntıları Google'ın <a href="https://developers.google.com/admob/ios/privacy/data-disclosure" lang="en">iOS</a>
+        ve <a href="https://developers.google.com/admob/unity/privacy/play-data-disclosure" lang="en">Android</a> veri açıklamalarında ve
+        <a href="https://policies.google.com/privacy?hl=tr">Google Gizlilik Politikası</a>'nda bulabilirsiniz.
       </p>
       <p>
         Reklam gizliliği tercihleri Google User Messaging Platform üzerinden
@@ -110,9 +111,9 @@
         Yerel oyun kayıtları, sonraki oturumlarda ilerlemenizi ve tercihlerinizi
         geri yüklemek için kullanılır. Uygulamayı kaldırarak veya Android cihaz
         ayarlarından uygulama verilerini temizleyerek bu kayıtları silebilirsiniz.
-        Cihazınızın yedekleme ayarlarına bağlı olarak Android veya cihaz sağlayıcınız
-        uygulama verilerini yedekleyip geri yükleyebilir; yedekleri ilgili hizmetin
-        ayarlarından yönetebilirsiniz.
+        iOS'ta yerel kayıtları kaldırmak için <strong>Uygulamayı Sil</strong> seçeneğini
+        kullanın. iCloud ve Android yedekleri, cihazın yedekleme ayarlarına göre
+        uygulama verilerini koruyabilir. Yedekleri ilgili hizmetin ayarlarından yönetebilirsiniz.
       </p>
       <p>
         Yerel kayıtların silinmesi, Google veya Unity tarafından önceden işlenmiş
@@ -126,6 +127,7 @@
       <ul>
         <li><strong>İnternet ve ağ durumu:</strong> Reklamların ve gizlilik mesajlarının yüklenmesi için kullanılır.</li>
         <li><strong>Android reklam kimliği:</strong> 0.1.9 ve sonraki Android sürümleri bu kimliğe erişim izni içermez.</li>
+        <li><strong>iOS reklam kimliği:</strong> Oyun, App Tracking Transparency (ATT) izni istemez. iOS reklam istekleri kişiselleştirilmemiştir ve Apple reklam kimliğini (IDFA) kullanmaz.</li>
       </ul>
       <p>
         Oyun kamera, mikrofon, hassas konum veya rehber erişimi istemez. Reklam
@@ -149,11 +151,16 @@
       <h2>6. Politika değişiklikleri</h2>
       <p>
         Oyunun özellikleri, kullanılan hizmetler veya veri uygulamaları değişirse
-        bu politika güncellenecek ve ilgili Google Play Data Safety beyanı yeniden
-        değerlendirilecektir. Güncel politika ve son güncelleme tarihi bu sayfada yer alır.
+        bu politika ve ilgili mağaza gizlilik beyanları gözden geçirilecektir.
+        Güncel politika ve son güncelleme tarihi bu sayfada yer alır.
       </p>
 
       <h2>7. İletişim</h2>
+      <p id="reklam-bildir">
+        Uygunsuz veya yaşa uygun olmayan reklamları
+        <a href="mailto:cankrs@gmail.com?subject=Sand%20Art%20Jam%20-%20Reklam%20Bildirimi">CA Games'e bildirebilirsiniz</a>.
+        Reklamda gördüğünüz marka veya uygulamanın adını ve yaklaşık gösterim saatini yazmanız bize yardımcı olur.
+      </p>
       <p>
         Gizlilikle ilgili sorularınız için
         <a href="mailto:cankrs@gmail.com">cankrs@gmail.com</a> adresinden CA Games
@@ -181,7 +188,7 @@
 
       <p>
         This Privacy Policy explains how data is handled in the <strong>Sand Art Jam</strong>
-        mobile game provided by CA Games. The application's Android package name is
+        game for iOS and Android provided by CA Games. The application identifier is
         <strong>com.cengiz.sandgameworkers</strong>.
       </p>
 
@@ -195,11 +202,12 @@
       <p>
         Sand Art Jam uses <strong>Google AdMob / Google Mobile Ads</strong> for
         interstitial and optional rewarded advertising. The service may process IP addresses (which can
-        indicate approximate location), app and ad interactions, diagnostics, and
-        device identifiers such as app set IDs. Earlier Android versions may include
+        indicate approximate location), ad impressions, app interactions, crash
+        and performance data, and platform-specific device identifiers. Earlier Android versions may include
         permission to access the Android advertising ID. Data may be shared
         with Google for advertising, measurement, and fraud prevention. See
-        <a href="https://developers.google.com/admob/unity/privacy/play-data-disclosure">Google Mobile Ads data disclosures</a>
+        Google's data disclosures for <a href="https://developers.google.com/admob/ios/privacy/data-disclosure">iOS</a>
+        and <a href="https://developers.google.com/admob/unity/privacy/play-data-disclosure">Android</a>,
         and the <a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a>.
       </p>
       <p>
@@ -230,9 +238,9 @@
       <p>
         Local saves restore your progress and preferences in later sessions.
         You can delete them by uninstalling the application or clearing its data
-        through Android device settings. Depending on your backup settings,
-        Android or your device provider may back up and restore application data;
-        manage those backups through the relevant service's settings.
+        through Android device settings. On iOS, use <strong>Delete App</strong> to
+        remove local saves. iCloud or Android backups may retain app data depending
+        on your device settings. Manage those backups through the relevant service's settings.
       </p>
       <p>
         Deleting local saves does not automatically delete data previously
@@ -246,6 +254,7 @@
       <ul>
         <li><strong>Internet and network state:</strong> Used to load advertisements and privacy messages.</li>
         <li><strong>Android advertising ID:</strong> Android version 0.1.9 and later do not include permission to access this identifier.</li>
+        <li><strong>iOS advertising ID:</strong> The game does not request App Tracking Transparency (ATT) permission. iOS ad requests are non-personalized and do not use Apple's advertising identifier (IDFA).</li>
       </ul>
       <p>
         The game does not request access to your camera, microphone, precise
@@ -268,11 +277,16 @@
       <h2>6. Changes to this policy</h2>
       <p>
         We will update this policy when the game's features, services, or data
-        practices change and review the corresponding Google Play Data Safety
+        practices change and review the corresponding app store privacy
         declaration. The current policy and its last updated date appear on this page.
       </p>
 
       <h2>7. Contact</h2>
+      <p id="report-an-ad">
+        You can <a href="mailto:cankrs@gmail.com?subject=Sand%20Art%20Jam%20-%20Ad%20Report">report an inappropriate or age-inappropriate ad to CA Games</a>.
+        Please include the name of the advertised app or brand and roughly when you saw the ad.
+        <a href="#reklam-bildir" lang="tr" hreflang="tr">Türkçe reklam bildirimi</a>
+      </p>
       <p>
         For privacy-related questions, contact CA Games at
         <a href="mailto:cankrs@gmail.com">cankrs@gmail.com</a>. If you email us,
